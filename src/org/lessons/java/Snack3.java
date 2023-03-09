@@ -14,7 +14,7 @@ public class Snack3 {
 
         for (int i = 0; i < numbers.length; i++) {
             System.out.println(i);
-            if (i % 3 == 0 ){
+            if ( i % 2 != 0 ){
                 sum += i;
             }
         }
